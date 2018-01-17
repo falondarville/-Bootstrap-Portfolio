@@ -1,0 +1,97 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../../assets/images/notebook.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	margin-bottom: 120px;
+}
+
+.headers {
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 30px;
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.border-bottom {
+	border-bottom: 2px solid #cccccc;
+}
+
+.nav-link {
+	color: #999ca4;
+	font-size: 18px;
+}
+
+#photo {
+	width: 100%;
+	max-width: 260px;
+}
+
+p {
+	line-height: 35px;
+	font-size: 18px;
+	color: #777777;
+}
+
+.footer {
+	border-top: 8px solid #4aaaa5;
+	background-color: #666666;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	line-height: 92px;
+	text-align: center;
+}
+
+.mainLine {
+	height: 3px;
+	color: #dddddd;
+	background-color: #dddddd;
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 90%
+}
+
+.mainContent {
+	background-color: #ffffff;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+.icons {
+	padding: 3px;
+	height: 60px;
+	width: 60px;
+}
+
+.sidebar {
+	background-color: #ffffff;
+	margin-top: 40px;
+	height: 200px;
+	padding: 40px;
+	margin-right: 40px;
+	text-align: center;
+}
