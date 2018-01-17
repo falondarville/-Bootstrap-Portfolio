@@ -14,6 +14,14 @@ body {
 	margin-bottom: 120px;
 }
 
+h3 {
+	font-size: 22px;
+}
+
+.container {
+	width: 1000px;
+}
+
 .headers {
 	font-family: 'Georgia', Times, Times New Roman, serif; 
 	color: #4aaaa5;
@@ -25,8 +33,8 @@ body {
 	font-size: 30px;
 	padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .navbar {
@@ -40,6 +48,10 @@ body {
 .nav-link {
 	color: #999ca4;
 	font-size: 18px;
+}
+
+li {
+	padding: 12px;
 }
 
 #photo {
@@ -63,6 +75,7 @@ p {
 	height: 100px;
 	line-height: 92px;
 	text-align: center;
+	font-size: small;
 }
 
 .mainLine {
@@ -72,26 +85,40 @@ p {
 	border: 0;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 90%
+	width: 100%
 }
 
 .mainContent {
 	background-color: #ffffff;
 	margin-top: 40px;
-	padding: 20px;
+	padding: 40px;
 }
 
 .icons {
-	padding: 3px;
-	height: 60px;
-	width: 60px;
+	padding: 2px;
+	height: 66px;
+	width: 66px;
+	text-align: center;
 }
 
 .sidebar {
 	background-color: #ffffff;
 	margin-top: 40px;
 	height: 200px;
-	padding: 40px;
-	margin-right: 40px;
 	text-align: center;
+	padding: 40px 30px 1px 30px;
+}
+
+.secondaryLine {
+	color: #dddddd;
+	border: 0;
+	height: 2px;
+	background-color: #dddddd;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 200px;
+}
+
+a, a:hover {
+	text-decoration: none;
 }

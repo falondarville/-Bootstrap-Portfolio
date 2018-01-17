@@ -10,7 +10,8 @@
 
 <!-- main menu and logo container -->
 
-<div class="container">
+<div class="container-fluid bg-light border-bottom">
+  <div class="container">
 
 <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="index.html">Falon Darville</a>
@@ -18,7 +19,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
       </li>
@@ -26,15 +27,68 @@
         <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
 
 </div>
+</div>
 
 <!-- main content portion -->
+
+<div class="container">
+  <div class="row">
+
+  <section class="col-md-8 contactContainer">
+
+  <h2 class="headers">Contact</h2>
+  <hr class="mainLine">
+      <label>Name</label>
+      <input type="text" name="name" placeholder="John Smith">
+
+      <label>Email</label>
+      <input type="text" name="email" placeholder="example@gmail.com">
+
+      <label>Message</label>
+      <textarea rows="25" id="message" name="message"></textarea>
+
+      <input id="submitButton" type="submit" value="Submit">
+
+  </section>
+
+  <!-- sidebar section -->
+
+  <section class="col-md-4">
+
+    <div class="sidebar">
+
+  <h3 class="headers">Connect With Me</h3>
+    <hr class="secondaryLine">
+    <a href="https://github.com/falondarville" target="_blank">
+      <img class="icons" src="assets/images/github.png" alt="Link to Falon's GitHub account">
+    </a>
+    <a href="https://www.linkedin.com/in/falon-darville/" target="_blank">
+      <img class="icons" src="assets/images/linkedin.png" alt="Link to Falon's LinkedIn account">
+    </a>
+    <a href="https://stackoverflow.com/users/8986774/falon-darville" target="_blank">
+      <img class="icons" src="assets/images/overflow.png" alt="Link to Falon's Stack Overflow account">
+    </a>
+  </section>
+
+</div>
+
+</div>
+</div>
+
+<!-- footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <span>© Copyright 2018 Falon Darville</span>
+      </div>
+    </footer>
 
 </body>
 </html>
