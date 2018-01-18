@@ -132,3 +132,35 @@ a, a:hover {
 label {
 	color: #777777;
 }
+
+button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 20%;
+	font-size: 16px;
+}
+
+.portfolioContent {
+	background-color: #ffffff;
+	margin-top: 40px;
+	padding: 40px;
+}
+
+img {
+	width: 275px;
+	height: 200px;
+}
+
+.banner {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 25px;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	width: 235px;
+}
