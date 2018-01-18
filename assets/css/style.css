@@ -122,3 +122,13 @@ p {
 a, a:hover {
 	text-decoration: none;
 }
+
+.contactContainer {
+	background-color: #ffffff;
+	margin-top: 40px;
+	padding: 40px;
+}
+
+label {
+	color: #777777;
+}
