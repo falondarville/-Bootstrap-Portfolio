@@ -148,8 +148,8 @@ button {
 }
 
 img {
-	width: 275px;
-	height: 200px;
+	max-width: 265px;
+	max-height: 200px;
 }
 
 .banner {
@@ -158,16 +158,16 @@ img {
 	height: 25px;
 	font-size: 20px;
 	text-align: center;
-	padding: 20px;
+	line-height: 2px;
+	padding: 30px;
 	position: absolute;
 	bottom: 15px;
 	left: 0;
 	right: 0;
-	width: 235px;
+	width: 265px;
 }
 
 .portfolioItems {
 	position: relative;
 	margin-bottom: 40px;
-	width: 50%;
 }
