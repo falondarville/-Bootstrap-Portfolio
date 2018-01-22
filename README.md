@@ -1,0 +1,1 @@
+This is a Bootstrap portfolio assignment for the UC Davis Extension coding bootcamp.
