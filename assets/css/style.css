@@ -52,6 +52,15 @@ h3 {
 
 li {
 	padding: 12px;
+	position: relative;
+}
+
+.navBorder {
+	height: 20px;
+	border-right: 1px solid #999ca4;
+	position: absolute;
+	right: 0;
+	top: 22px;
 }
 
 #photo {
@@ -147,9 +156,11 @@ button {
 	padding: 40px;
 }
 
-img {
+.portfolioItems img {
+	width: 100%;
 	max-width: 265px;
-	max-height: 200px;
+	height: 200px;
+	min-width: 200px;
 }
 
 .banner {
@@ -164,7 +175,9 @@ img {
 	bottom: 15px;
 	left: 0;
 	right: 0;
-	width: 265px;
+	max-width: 265px;
+	width: 100%;
+	min-width: 200px;
 }
 
 .portfolioItems {
